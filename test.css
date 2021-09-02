@@ -1,0 +1,41 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+body{
+    background-color: #0f0f0f;
+}
+
+
+.images{
+    border: rgb(126, 216, 133) 1px solid;
+    width: 95vw;
+    height: 51vh;
+}
+.heading2{
+    color: rgb(126, 216, 133);
+    padding-left: 10px;
+    text-transform: capitalize;
+    }
+    .container2{
+
+        padding-left: 20px;
+    
+    }
+
+    .fbox{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-left: 10px;
+        }
+        
+        .imgbox{
+            
+            height: 170px;
+            width: 220px;
+            border: rgba(0,0,0,0.5) 1px solid;
+          
+        }
+  

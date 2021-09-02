@@ -1,0 +1,190 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+body{
+    background-color: #0f0f0f;
+}
+header{
+    display: flex;
+    align-items: center;
+background-color: rgba(0,0,0,0.5);
+    height: 15vh;
+    justify-content: space-between;
+}
+.backicon a{
+    text-decoration: none;
+}
+.backicon{
+    padding-left: 20px;
+}
+#back{
+    font-size: 50px;
+    color: rgb(126, 216, 133);
+ 
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.agentinfo{
+    width: 300px;
+}
+
+.main{
+height: 140vh;
+background-repeat: no-repeat;
+}
+
+.team{
+height: 40vh;
+display: flex;
+/* img of team goes here  */
+background-image: url(/ooty.jpg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+align-items: center;
+padding-left: 80px;
+}
+.container{
+    padding-top: 30px;
+display: flex;
+padding-left: 20px;
+
+}
+.container2{
+
+    padding-left: 20px;
+
+}
+.heading2{
+color: rgb(126, 216, 133);
+padding-left: 10px;
+text-transform: capitalize;
+}
+
+.images{
+    border: rgb(126, 216, 133) 1px solid;
+    width: 95vw;
+    height: 51vh;
+}
+.img{
+    width: 320px;
+    height: 600px;
+    text-align: center;
+    border: 1px rgb(126, 216, 133) solid;
+}
+.sidebar{
+    padding-left: 20px;
+}
+.agentimg{
+    width: 250px;
+    padding: 20px 0px 10px 0px;
+
+}
+.name{
+    color: rgb(126, 216, 133);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.abtagent{
+    padding-top: 30px;
+    color: white;
+    padding-left: 13px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+text-align: left;
+padding-left: 10px;
+    width: 70vw;
+border: 1px solid rgb(126, 216, 133);
+}
+.heading{
+    font-size: 70px;
+    color: rgb(126, 216, 133);
+}
+.abt{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+   
+    height: 170px;
+    width: 170px;
+}
+.footer{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.copy{
+    color: rgb(126, 216, 133);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+.connectbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.connect{
+    width: 20vw;
+   
+}
+
+.connect h4{
+    word-spacing: 5px;
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    color: white;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+#sicon{
+    color: rgb(126, 216, 133);
+    padding-left: 10px;
+}
+.fbox{
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+padding-left: 10px;
+}
+
+.imgbox{
+    
+    height: 170px;
+    width: 220px;
+    border: rgba(0,0,0,0.5) 1px solid;
+  
+}
+
+.imgholder{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media all and (max-width: 675px) {
+header{
+    height: 7vh;
+}
+.team{
+    height: 21vh;
+}
+.container{
+  width: 100%;
+ display: block;
+}
+.about{
+    border: none;
+}
+
+}
