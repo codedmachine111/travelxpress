@@ -115,11 +115,18 @@ background-color: rgba(0,0,0,0.5);
     header{
         height: 7vh;
     }
-
+.backicon{
+    padding-left: 10px;
+}
+#back{
+font-size: 30px;
+}
     .content h1{
         font-size: 45px;
     }
-
+.content{
+    padding-left: 35px;
+}
 .content a{
 font-size: 40px;
 }
