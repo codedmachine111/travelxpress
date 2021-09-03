@@ -222,12 +222,28 @@ color:rgb(126, 216, 133);
     width: 40px;
     height: 40px;
 }
+.content h1{
+font-size: 50px;
+}
+.content h3{
+    font-size: 25px;
+}
+.content p{
+    font-size: 22px;
+    word-spacing: 1px;
+}
 .connect{
     width: auto;
 }
 .connect h4{
     word-spacing: 2px;
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 10px;
+}
+.menubar{
+    height: 12vh;
+}
+header{
+    background-position: center;
 }
 }
