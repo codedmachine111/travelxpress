@@ -230,3 +230,94 @@ font-size: 80px;
     color: rgb(126, 216, 133);
     padding-left: 10px;
 }
+
+@media all and (max-width: 675px){
+    header{
+        height: 7vh;
+        display: flex;
+width: 100vw;
+justify-content: space-between;
+    }
+    .bg{
+        height: 40vh;
+        width: 100vw;
+    }
+    .heading{
+        font-size: 75px;
+        padding-left: 10px;
+    }
+    .abtc{
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .backicon{
+        padding-left: 10px;
+    }
+    .content{
+        height: 270px;
+    }
+#back{
+    font-size: 30px;
+}
+.homeicon{
+    padding-right: 10px;
+}
+#home{
+    font-size: 30px;
+}
+
+.container{
+    display: inline;
+}
+
+.whyarea{
+    padding-top: 20px;
+    height: 110vh;
+    padding-left: 50px;
+}
+.formbox{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.sidebar{
+    padding-top: 20px;
+    width: 100vw;
+}
+.main{
+    height: 290vh;
+    width: 100vw;
+}
+.box{
+    height: 670px;
+}
+.pack{
+    height: 900px;
+    width: 70vw;
+  
+}
+.whybox{
+    padding-left: 50px;
+}
+
+.copy{
+    height: 10vh;
+}
+.connectbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.connect h4{
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.connect{
+    width: 35vw;
+}
+.heading2{
+    font-size: 24px;
+}
+.content{
+    padding-left: 0px;
+}
+
+}
