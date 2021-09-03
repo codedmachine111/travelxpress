@@ -238,7 +238,7 @@ width: 100vw;
 justify-content: space-between;
     }
     .bg{
-        height: 30vh;
+        height: 33vh;
         width: 100vw;
     }
     .heading{
@@ -280,7 +280,7 @@ justify-content: space-between;
     width: 100vw;
 }
 .main{
-    height: 280vh;
+    height: 310vh;
     width: 100vw;
 }
 .box{
@@ -294,7 +294,9 @@ justify-content: space-between;
 .whybox{
     padding-left: 50px;
 }
-
+.content{
+    height: 27vh;
+}
 .copy{
     height: 10vh;
 }
@@ -314,6 +316,9 @@ justify-content: space-between;
 }
 .content{
     padding-left: 0px;
+}
+.footer{
+    width: 100vw;
 }
 
 }
