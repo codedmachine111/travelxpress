@@ -270,14 +270,14 @@ justify-content: space-between;
 }
 .formbox{
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 56px;
 }
 .sidebar{
     padding-top: 20px;
     width: 100vw;
 }
 .main{
-    height: 280vh;
+    height: 310vh;
     width: 100vw;
 }
 .box{
@@ -289,7 +289,7 @@ justify-content: space-between;
   
 }
 .whybox{
-    padding-left: 50px;
+    padding-left: 56px;
 }
 
 .copy{
