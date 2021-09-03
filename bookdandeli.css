@@ -237,3 +237,76 @@ color: white;
     color: rgb(126, 216, 133);
     padding-left: 10px;
 }
+
+@media all and (max-width: 675px){
+    .bg{
+        height: 30vh;
+    }
+    header{
+height: 7vh;
+display: flex;
+width: 78vw;
+justify-content: space-between;
+    }
+    .backicon{
+        padding-left: 10px;
+    }
+#back{
+    font-size: 30px;
+}
+#home{
+    font-size: 30px;
+}
+
+
+    .main{
+        display: inline;
+    }
+    .dandeli{
+        width: 78vw;
+    }
+    .heading{
+        font-size: 45px;
+    }
+.abtd{
+    font-size: 13px;
+}
+.footer{
+    width: 78vw;
+    height: 16vh;
+}
+.what{
+    padding-left: 30px;
+}
+.sidebar{
+    width: 290px;
+}
+.formbox{
+    padding-left: 30px;
+}
+.box{
+    width: 240px;
+    height: 670px;
+}
+.whybox{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.why{
+    width: 240px;
+}
+.copy{
+    height: 10vh;
+}
+.connectbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.connect h4{
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.connect{
+    width: 35vw;
+}
+}
