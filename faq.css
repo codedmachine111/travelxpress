@@ -126,3 +126,66 @@ height: 43vh;
     color: rgb(126, 216, 133);
     padding-left: 10px;
 }
+
+@media all and (max-width: 675px){
+    header{
+        height: 7vh;
+        width: 100vw;
+    }
+    .container{
+        padding-left: 50px;
+        
+
+    }
+    .backicon{
+        padding-left: 10px;
+    }
+    #back{
+        font-size: 30px;
+    }
+    .q{
+        font-size: 40px;
+    }
+
+    .ans{
+        font-size: 15px;
+    }
+
+    .qbox{
+        width: 60vw;
+        height: 55vh;
+    }
+    .main{
+        height: 320vh;
+    }
+.container2{
+    padding-left: 50px;
+}
+    .ask{
+        width: 60vw;
+    }
+    #question{
+        width: 190px;
+    }
+
+
+    .footer{
+        height: 16vh;
+    }
+
+    .connect h4{
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    .copy{
+        height: 10vh;
+    }
+    .connect{
+        
+        width: 35vw;
+    }
+
+.btnc{
+    padding-left: 70px;
+}
+}
