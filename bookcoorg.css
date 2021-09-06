@@ -235,7 +235,7 @@ width: 100vw;
 justify-content: space-between;
     }
     .bg{
-        height: 30vh;
+        height: 35vh;
         width: 100vw;
     }
     .heading{
@@ -260,7 +260,8 @@ justify-content: space-between;
 }
 
 .container{
-    display: inline;
+    display: block;
+    height: 140vh;
 }
 
 .whyarea{
@@ -273,11 +274,11 @@ justify-content: space-between;
     padding-left: 56px;
 }
 .sidebar{
-    padding-top: 20px;
+    padding-top: 40px;
     width: 100vw;
 }
 .main{
-    height: 310vh;
+    height: 315vh;
     width: 100vw;
 }
 .box{
