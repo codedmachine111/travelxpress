@@ -67,7 +67,7 @@ width: 95vw;
 padding-left: 15px;
 padding-top: 15px;
 border: rgb(126, 216, 133) 1px solid;
-width: 30vw;
+width: 28vw;
 height: 43vh;
 
 }
@@ -153,22 +153,24 @@ height: 43vh;
 
     .qbox{
         width: 60vw;
-        height: 45vh;
+        height: 65vh;
     }
     .main{
         height: 320vh;
     }
 .container2{
     padding-left: 50px;
+    height: 65vh;
 }
     .ask{
         width: 60vw;
+        height: 50vh;
     }
     #question{
         width: 190px;
     }
 .main{
-height: auto;
+height:390vh;
 }
 
     .footer{
